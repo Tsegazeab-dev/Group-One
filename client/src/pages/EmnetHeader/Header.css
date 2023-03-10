@@ -1,0 +1,41 @@
+.link {
+  text-decoration: none;
+  color: black;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.nav__image {
+  padding-left: 110px;
+}
+
+.nav__bar {
+  padding-right: 190px;
+  font-size: 19px;
+}
+.nav__bar button {
+  height: 45px;
+  width: 250px;
+  margin: 15px 0;
+  background-color: #516cf0;
+  border: 1px solid #3a59ef;
+  border-radius: 4px;
+  color: aliceblue;
+  font-size: 17px;
+}
+.nav__bar button:hover {
+  background: #db7405;
+  border: #fe8402;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.nav__bar .nav__works {
+  padding: 35px;
+}
+.nav__bar :hover {
+  color: #da7000;
+}
