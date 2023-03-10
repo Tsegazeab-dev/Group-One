@@ -1,0 +1,115 @@
+.account__link {
+  color: #e47703;
+}
+.login {
+  display: flex;
+}
+.login__container {
+  margin-left: 290px;
+  text-align: center;
+}
+
+.login__title {
+  width: 530px;
+  height: 520px;
+  margin-top: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgb(158 158 158 / 90%);
+  border-radius: 10px;
+  position: relative;
+  top: 0;
+}
+
+.login__title h2 {
+  padding-top: 120px;
+}
+.login__form input {
+  height: 40px;
+  margin-bottom: 9px;
+  width: 450px;
+  border: 1.9px solid #ddd;
+  border-radius: 4px;
+}
+
+.login__container button {
+  height: 45px;
+  width: 250px;
+  margin: 15px 0;
+  background-color: #516cf0;
+  border: 1px solid #3a59ef;
+  border-radius: 4px;
+  color: aliceblue;
+  font-size: 17px;
+}
+.login__container button:hover {
+  background: #fe8402;
+  border: #fe8402;
+  cursor: pointer;
+}
+
+.login__about {
+  padding-top: 120px;
+  width: 600px;
+  padding-left: 40px;
+}
+#about {
+  color: #f88409;
+}
+.login__about button {
+  background: #f17f04;
+  border: 1px solid #fe8402;
+  border-radius: 4px;
+  padding: 12px;
+  color: #fff;
+  width: 190px;
+  margin-top: 20px;
+}
+
+.footer {
+  height: 200px;
+  background-color: #1e2f3f;
+  padding-left: 100px;
+  margin-top: 210px;
+  display: flex;
+}
+
+.footer__image {
+  padding-top: 30px;
+}
+.footer_socialLink a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__instagram {
+  padding: 15px;
+}
+
+.footer__linkList {
+  display: flex;
+  padding-left: 300px;
+  padding-top: 13px;
+  color: #fff;
+
+  /* padding-bottom: 60px; */
+}
+.footer__linkList ul li {
+  list-style: none;
+  opacity: 0.3;
+}
+.footer__linkUseful ul li:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+.footer__linkUseful {
+  padding-right: 100px;
+}
+.footer__linkList h3 {
+  padding-left: 37px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.footer__linkContact {
+  padding-left: 300px;
+  padding-right: 180px;
+}
